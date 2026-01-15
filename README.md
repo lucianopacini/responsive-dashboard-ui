@@ -1,5 +1,3 @@
-# responsive-dashboard-ui
-=======
 # Responsive Dashboard UI
 
 A responsive dashboard user interface designed to simulate a modern web application layout.
@@ -73,4 +71,3 @@ This project is part of a personal portfolio and demonstrates:
 
 No frameworks, no libraries — pure vanilla front-end.
 Built with focus, curiosity, and attention to detail.
->>>>>>> bcdc5d1 (Primo commit: aggiunto progetto completo)
