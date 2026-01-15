@@ -1,0 +1,95 @@
+<!-- HOME -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Dashboard UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Sidebar (Desktop) -->
+    <nav class="sidebar">
+
+        <!-- Logo LP -->
+        <img src="logo-db.png" alt="App Logo" class="sidebar-logo" />
+
+        <!-- Navigation Links -->
+        <a href="index.html" class="nav-link">
+            <span class="icon">🏠</span>
+            <span class="label">Home</span>
+        </a>
+        <a href="projects.html" class="nav-link">
+            <span class="icon">📊</span>
+            <span class="label">Projects</span>
+        </a>
+        <a href="about.html" class="nav-link">
+            <span class="icon">⚙️</span>
+            <span class="label">About</span>
+        </a>
+    </nav>
+
+    <!-- Navbar (Mobile) -->
+    <nav class="navbar">
+
+        <input type="checkbox" id="menu-toggle" />
+
+        <label for="menu-toggle" class="hamburger" aria-label="Open navigation menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="menu">
+            <li><a href="index.html" class="nav-icon" aria-label="Dashboard">🏠</a></li>
+            <li><a href="projects.html" class="nav-icon" aria-label="Statistics">📊</a></li>
+            <li><a href="about.html" class="nav-icon" aria-label="Settings">⚙️</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+            🌙 / ☀️
+        </button>
+
+        <!-- Dashboard Cards -->
+        <section class="dashboard">
+            <div class="card">
+                <h3>Dashboard Overview</h3>
+                <p>
+                    Responsive dashboard UI designed to simulate a modern web application.
+                    Optimized layout for desktop and mobile experiences.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Core Features</h3>
+                <p>
+                    Dark & Light mode with persistent user preference, responsive navigation,
+                    and smooth UI micro-interactions focused on usability.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Tech Stack & Decisions</h3>
+                <p>
+                    Built using semantic HTML, CSS Grid for layout structure,
+                    CSS variables for theming, and JavaScript for state management.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Dashboard UI · Built with HTML, CSS Grid & JavaScript</p>
+    </footer>
+
+</body>
+
+</html>
