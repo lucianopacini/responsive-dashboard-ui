@@ -1,5 +1,7 @@
 # Responsive Dashboard UI
 
+![Dashboard Preview](screenshot-dashboard.png)
+
 A responsive dashboard user interface designed to simulate a modern web application layout.
 The project focuses on clean UI structure, accessibility, and state management using vanilla technologies.
 
